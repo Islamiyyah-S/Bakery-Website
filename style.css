@@ -29,6 +29,7 @@ nav {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  
 }
 .logo {
   color: #fdf1ec;
@@ -46,12 +47,13 @@ nav {
 }
 nav a {
   height: 100%;
-  padding: 0 15px;
+  padding: 0 12.5px;
   display: flex;
   align-items: center;
   text-decoration: none;
   color: #fdf1ec;
-  margin-right: 10px;
+  cursor: pointer;
+ 
 }
 nav a:hover {
   border-bottom: 4px solid #a83c57;
