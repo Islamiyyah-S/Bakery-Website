@@ -11,6 +11,7 @@ body {
   width: 100%;
   background-size: cover;
   background-color: #fdf1ec;
+  overflow-x: hidden;
 }
 nav {
   display: flex;
@@ -151,7 +152,7 @@ header {
 }
 .testimonials {
   background-color: rgba(168, 60, 87, 0.08);
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 .text-testimonial {
@@ -182,35 +183,60 @@ header {
 .newsletter{
   padding: 50px;
 }
+.newsletter h1{
+  color: #a83c57;
+}
 .newsletter-text {
   max-width: 800px;
   text-align: center;
   margin: 0 auto; 
   padding: 0 20px; }
 #email{
-  width: 70%;
-}
-.contact .col-md-5 {
-  margin-right: 80px;
-}
-.contact{
-  padding: 60px;
-}
-  .contact p{
-    font-size: 15px;
-  }
-  #name,
-#Email,
-#subject,
-#message-box {
-  padding: 5px;
-  width: 100%;
+  width: 50%;
   border: 1px solid rgb(215, 212, 212);
-background-color: #fdf1ec;}
-  
+background-color: #fdf1ec;
+  padding: 5px; 
+}
+.newsletter-button{
+ background-color: #a83c57;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  /* border-radius: 15px; */
+  cursor: pointer;
+  font-weight: 600;
+  /* margin-top: 10px;  */
+}
+.newsletter-button:hover{
+   background-color: #8a2f45;
+}
 footer{
   background-color: #a83c57;
+  padding: 30px 0;
+  height: 100vh;
+  color: white;
+  position: relative;
 }
+
+footer h3{font-size: 15px;
+}
+
+
+footer a{
+  text-decoration: none;
+color: white;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+.footnote {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 0;
+}
+
+
 
 /* Media */
 
@@ -238,9 +264,6 @@ footer{
     background-color: rgb(0, 0, 0);
     transition: 1s ease-out;
   }
-  /* nav {
-    justify-content: flex-end;
-  } */
   nav a {
     box-sizing: border-box;
     height: auto;
@@ -274,7 +297,6 @@ footer{
   #about .col-md-5 {
     margin-left: 80px;
   }
-  .contact .col-md-5 {
-  margin-left: 80px;}
-
+  /* .contact .col-md-5 {
+  margin-left: 80px;} */
 }
